@@ -1,0 +1,17 @@
+{
+  "cli": {
+    "version": ">= 3.16.0"
+  },
+  "build": {
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "FIREBASE_PROJECT_ID": "$FIREBASE_PROJECT_ID",
+        "FIREBASE_ANDROID_APP_ID": "$FIREBASE_ANDROID_APP_ID"
+      }
+    }
+  }
+}

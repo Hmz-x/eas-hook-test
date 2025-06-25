@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "346232001253",
+    "project_id": "eas-test-4e289",
+    "storage_bucket": "eas-test-4e289.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346232001253:android:580296897a6c829e37ba0c",
+        "android_client_info": {
+          "package_name": "com.hkmhkmhkm333.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc5YFmlar4Emyf5PhduvZ2ahn_6_cwAy0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
