@@ -12,6 +12,7 @@ jobs:
       FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
       FIREBASE_ANDROID_APP_ID: ${{ secrets.FIREBASE_ANDROID_APP_ID }}
       FIREBASE_SERVICE_ACCOUNT_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_KEY }}
+      EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
 
     steps:
       - name: Checkout repository
@@ -31,8 +32,3 @@ jobs:
       - name: Run EAS Build (Preview)
         run: |
           eas build --platform android --profile preview --non-interactive
-        env:
-          EAS_BUILD_PROFILE: preview
-          EAS_BUILD_PLATFORM: android
-          EAS_SECRET_FIREBASE_SERVICE_ACCOUNT_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_KEY }}
-
